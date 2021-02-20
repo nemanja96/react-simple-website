@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.info-section {
+  width: 45%;
+  padding: 100px 50px 100px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-section h3 {
+  font-size: 1.1em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #5ae4a8;
+}
+
+.info-section h2 {
+  padding: 20px 0;
+  font-size: 2em;
+  line-height: 40px;
+}
+
+.info-section p {
+  font-size: 1em;
+  color: #999;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 960px) {
+  .info-section {
+    width: 100%;
+    text-align: center;
+    order: 2;
+    padding: 0;
+    margin-bottom: 100px;
+  }
+
+  .info-section h2 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+  .info-btn {
+    margin: 0 auto;
+    width: 80%;
+  }
+}
